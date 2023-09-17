@@ -1,14 +1,101 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SOS - макет сайта игры</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/adaptive.css">
+    <script src="js/app.js" defer></script>
 </head>
 
 <body>
+    <header class="header-block">
+        <div class="header-filter-block">
+            <div class="wrapper">
+                <div class="header-top-block">
+                    <div class="header-logo">
+                        <a href="/">
+                            <img src="img/logo.svg" alt="logo SOS">
+                        </a>
 
+                    </div>
+                    <div class="header-menu">
+                        <ul class="header-menu-list">
+                            <li class="header-menu-li">
+                                <a href="#" class="header-menu-link">ГЛАВНЫЙ</a>
+                            </li>
+                            <li class="header-menu-li">
+                                <a href="#" class="header-menu-link">О НАС</a>
+                            </li>
+                            <li class="header-menu-li">
+                                <a href="#" class="header-menu-link">ОСОБЕННОСТИ ИГРЫ</a>
+                            </li>
+                            <li class="header-menu-li">
+                                <a href="#" class="header-menu-link">СИСТЕМНЫЕ ТРЕБОВАНИЯ</a>
+                            </li>
+                            <li class="header-menu-li">
+                                <a href="#" class="header-menu-link">ЦИТАТЫ</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="header-lang-icon-block">
+                        <div class="language-block" id="languageBlock">
+                            <button class="lang-change" id="langChange">RUS</button>
+                            <div class="lang-change-checkmark" id="langChangeCheckmarkBlock"><span id="langChangeCheckmark">></span></div>
+                        </div>
+                        <div class="lang-change-line"></div>
+                        <div class="icons-block">
+                            <div class="xbox-block">
+                                <a href="#"><img src="img/xbox-icon.svg" alt="xbox-icon"></a>
+                            </div>
+                            <div class="steam-block">
+                                <a href="#"><img src="img/steam-icon.svg" alt="steam-icon"></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="header-title-text">
+                    <h1 class="standart-text">ВЫЖИТЬ ЛЮБОЙ ЦЕНОЙ</h1>
+                    <h3 class="standart-text">Испытайте новую социальную игру королевская битва</h3>
+                    <a href="#" class="standart-text">
+                        Купить сейчас в Steam-e | $14.99
+                    </a>
+                </div>
+
+                <div class="header-stycker-story" id="headerStyckerStory">
+                    <a href="#block1">
+                        <p class="standart-text" id="styckerStoryLink">ИСТОРИЯ</p>
+                        <div class="triangle">
+                            <div class="bar"></div>
+                            <div class="bar"></div>
+                            <div class="bar"></div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main class="wrap">
+        <div class="wrap-block wrap-block-1">
+            <div class="filter-block-1" id="block1">
+
+            </div>
+        </div>
+        <div class="wrap-block wrap-block-2">
+
+        </div>
+        <div class="wrap-block wrap-block-3">
+
+        </div>
+        <div class="wrap-block wrap-block-4">
+
+        </div>
+
+    </main>
+    <footer></footer>
 </body>
 
 </html>
