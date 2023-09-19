@@ -5,15 +5,16 @@ const langChangeCheckmarkBlock = document.getElementById('langChangeCheckmarkBlo
 const headerStyckerStory = document.getElementById('headerStyckerStory')
 const styckerStoryLink = document.getElementById('styckerStoryLink')
 const styckerStoryBar = document.querySelectorAll('.bar')
+const languageOpenBlock = document.getElementById('languageOpenBlock')
 
 function languageBlockAddClass() {
-    langChange.classList.add("lang-change-hover")
+    languageOpenBlock.style.display = "flex"
     langChangeCheckmark.classList.add("change-checkmark-color")
     langChangeCheckmarkBlock.classList.add("lang-change-checkmark-block")
 }
 
 function languageBlockRemoveClass() {
-    langChange.classList.remove("lang-change-hover")
+    languageOpenBlock.style.display = "none"
     langChangeCheckmark.classList.remove("change-checkmark-color")
     langChangeCheckmarkBlock.classList.remove("lang-change-checkmark-block")
 }
