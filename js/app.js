@@ -41,7 +41,7 @@ function headerStyckerStoryRemoveClass() {
 headerStyckerStory.addEventListener("mouseover", headerStyckerStoryAddClass);
 headerStyckerStory.addEventListener("mouseout", headerStyckerStoryRemoveClass);
 
-console.log(styckerStoryBar);
+// console.log(styckerStoryBar);
 
 // slider
 // const swiper = new Swiper('.swiper', {
